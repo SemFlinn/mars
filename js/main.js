@@ -54,7 +54,7 @@ $(".wrapper").on('touchstart', function(event) {
     lastY = event.touches[0].clientY;
 });
 
-$('.scroller').on('touchmove', function(event) {
+$('.page').on('touchmove', function(event) {
     var top = event.touches[0].clientY;
 
     // Determine scroll position and direction.
