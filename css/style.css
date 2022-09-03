@@ -160,8 +160,7 @@ body {
 .main__block {
   position: relative;
   width: 100%;
-        min-height: 1030px;
-	height: calc(100% + 1px); 
+  height: 1030px;
   background: -webkit-linear-gradient(to left, #ff343d 0% 38%, #eff2f6 38% 100%);
   background: -moz-linear-gradient(to left, #ff343d 0% 38%, #eff2f6 38% 100%);
   background: linear-gradient(to left, #ff343d 0% 38%, #eff2f6 38% 100%);	
