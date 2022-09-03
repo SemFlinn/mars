@@ -161,10 +161,10 @@ body {
   position: relative;
   width: 100%;
   height: 1030px;  
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ff343d), color-stop(38%,#ff343d), color-stop(38%,#eff2f6), color-stop(100%,#eff2f6); /* Chrome, Safari4+ */
-	background: -webkit-linear-gradient(left, #ff343d 0%, #ff343d 38%, #eff2f6 38%, #eff2f6 100%); /* Chrome10+, Safari5.1+ */
-	background: -moz-linear-gradient(left, #ff343d 0%, #ff343d 38%, #eff2f6 38%, #eff2f6 100%);    /* FF3.6+ */
-	background: linear-gradient(to left, #ff343d 0%, #ff343d 38%, #eff2f6 38%, #eff2f6 100%);      /* W3C */
+	background: -webkit-gradient(linear, left top, right top, color-stop(38%,#ff343d), color-stop(0%, transparent), color-stop(38%,#eff2f6); /* Chrome, Safari4+ */
+	background: -webkit-linear-gradient(left, #ff343d 38%,transparent 0%, #eff2f6 38%); /* Chrome10+, Safari5.1+ */
+	background: -moz-linear-gradient(left, #ff343d 38%,transparent 0%, #eff2f6 38%);    /* FF3.6+ */
+	linear-gradient(to left, #ff343d 38%,transparent 0%, #eff2f6 38%)      /* W3C */
 }
 @media (max-width: 1439px) {
   .main__block {
