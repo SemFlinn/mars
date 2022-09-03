@@ -190,8 +190,7 @@ body {
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);
   text-shadow: 0 0 55px rgba(0, 0, 0, 0.15);
-	-webkit-text-shadow: 0 0 55px rgba(0, 0, 0, 0.15);
-	-moz-text-shadow: 0 0 55px rgba(0, 0, 0, 0.15);
+	-webkit-filter: text-shadow (0,5px 1px 1px #222);
 	appearance: none;
 	-moz-appearance: none;
 	-webkit-appearance: none; 
