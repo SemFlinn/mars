@@ -190,7 +190,7 @@ body {
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);
   text-shadow: 0 0 55px rgba(0, 0, 0, 0.15);
-	 -webkit-text-shadow: 0 0 55px rgba(0, 0, 0, 0.15);
+	 
   color: #ff343d;
 }
 @media (max-width: 1439px) {
