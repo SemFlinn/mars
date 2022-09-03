@@ -99,7 +99,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-style: normal;
 }
-
+body::-webkit-scrollbar {
+  width: 0;
+}
 body {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
