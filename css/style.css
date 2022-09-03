@@ -178,13 +178,17 @@ body {
 .main__block_title {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-  user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
   position: absolute;
   right: -410px;
   top: 373px;
   font-size: 388px;
   text-transform: uppercase;
-  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
   text-shadow: 0 0 55px rgba(0, 0, 0, 0.15);
   color: #ff343d;
 }
