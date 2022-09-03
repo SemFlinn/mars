@@ -110,10 +110,9 @@ body {
 .wrapper {
   max-width: 2000px;
   width: 100%;
-  min-height: 100%;
+        height: calc(100% + 1px);
         overflow-x: hidden;
-	overflow-y: auto;
-        -webkit-overflow-scrolling: touch;
+	
   margin: 0 auto -30px auto;
   display: -webkit-box;
   display: -ms-flexbox;
