@@ -61,7 +61,7 @@
   z-index: 2;
 }
 .header__left_phone:hover {
-  background-image: url("../img/13.jpg");
+  background-image: url("../img/13.png");
 }
 .header__right {
   display: flex;
