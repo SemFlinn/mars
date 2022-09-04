@@ -636,7 +636,7 @@ body {
 	width: 100%;
 }
 
-.swiper2-slide {
+.swiper2-slide, .swiper3-slide {
   height: 100%;
 	width: 100%;
 }
