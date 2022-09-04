@@ -268,8 +268,9 @@ body {
 .swiper-wrapper {
     min-width: 100%;
     min-height: 100%;
-	-webkit-transform: translate3d(-5456px, 0px, 0px);
+	-webkit-transform: translate3d();
         -webkit-transition-duration: 0ms;
+	-o-transition-duration: 0ms;
 }
 @media (max-width: 768px) {
   .swiper-wrapper {
