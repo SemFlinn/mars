@@ -1010,3 +1010,76 @@ body {
   color: rgb(255, 52, 61);
   transition: 0.5s;
 }
+
+
+
+
+
+
+.main__block_slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 8;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+}
+.swiper, .swiper4 {
+  width: 78%;
+  height: 100%;
+  position: absolute;
+  left: 10%;
+	top: 0;
+  overflow: hidden;
+}
+.swiper2, .swiper3 {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 40.7% 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+.swiper3 {
+  padding: 0 0 67% 0;
+}
+.swiper4 {
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.swiper2-wrapper, .swiper3-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.swiper-wrapper, .swiper4-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 100%;
+  min-height: 100%;
+}
+.slide {
+  display: block;
+  padding: 0 0 100% 0;
+  background-position: 107% 20%;
+  background-size: 69%;
+}
+.swiper2-slide {
+	padding: 0 0 67% 0;
+}
+.swiper4-slide {
+  background-size: 101%;
+  padding: 0 0 59.5% 0;
+}
