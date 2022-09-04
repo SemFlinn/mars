@@ -1078,6 +1078,7 @@ body {
 }
 .swiper2-slide {
 	padding: 0 0 67% 0;
+	height: 100%;
 }
 .swiper4-slide {
   background-size: 101%;
