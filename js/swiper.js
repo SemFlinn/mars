@@ -45,6 +45,24 @@ const swiper2 = new Swiper('.swiper2', {
   pagination: {
     el: '.swiper2-pagination',
     clickable: true,
+    
+    
+    
+    IOSEdgeSwipeDetection: true,
+    onTouchStart: function()
+    {
+        return false;
+    },
+    scrollbarDraggable: true,
+    scrollbar: '.swiper-scrollbar',
+    scrollbarHide: true
+    
+    
+    
+    
+    
+    
+    
   },
 
   // Navigation arrows
