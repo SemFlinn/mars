@@ -54,7 +54,7 @@ const swiper2 = new Swiper('.swiper2', {
         return false;
     },
     scrollbarDraggable: true,
-    scrollbar: '.swiper-scrollbar',
+    scrollbar: '.swiper2-scrollbar',
     scrollbarHide: true
     
     
