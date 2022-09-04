@@ -240,7 +240,8 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column;	
+          flex-direction: column;
+	padding: 0 0 67% 0;
 }
 .swiper, .swiper4 {
   width: 78%;
