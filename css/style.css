@@ -640,11 +640,9 @@ body {
 
 .swiper2-slide, .swiper3-slide {
   height: 100%;
-	width: 100%;
+	min-width: 100%;
 }
-.swiper3-slide {
-	width: 300%;
-}
+
 .swiper2-button-next, .swiper3-button-prev, .section5__content_button {
   position: absolute;
   right: 10%;
