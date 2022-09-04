@@ -638,6 +638,7 @@ body {
 
 .swiper2-slide {
   height: 100%;
+	width: 100%;
 }
 
 .swiper2-button-next, .swiper3-button-prev, .section5__content_button {
