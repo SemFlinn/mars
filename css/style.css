@@ -367,7 +367,6 @@ body {
 }
 .slide__circle {
   position: absolute;
-  content: "";
   width: 0%;
   padding: 0 0 0% 0;
   border-radius: 50%;
@@ -618,6 +617,8 @@ body {
   padding: 0 0 40.7% 0;
   overflow: hidden;
   cursor: pointer;
+	left: 0;
+        top: 0;
 }
 
 .swiper2-wrapper, .swiper3-wrapper {
