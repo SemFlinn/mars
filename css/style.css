@@ -248,6 +248,7 @@ body {
   height: 100%;
   position: absolute;
   left: 10%;
+	top: 0;
   overflow: hidden;
 }
 .swiper__text, .swiper4__text {
