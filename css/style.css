@@ -327,7 +327,10 @@ body {
 .swiper-pagination-bullet-active {
   background-color: #ff343d;
 }
-
+.swiper-slide {
+	width: 100%;
+        height: 100%;
+}
 .slide {
   display: block;
   padding: 0 0 100% 0;
