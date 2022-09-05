@@ -280,9 +280,6 @@ body {
     left: 0;
     top: 0;
   }
-	.swiper-slide{
-		height: 100%;
-	}
 }
 
 .swiper-scrollbar {
@@ -326,10 +323,6 @@ body {
 
 .swiper-pagination-bullet-active {
   background-color: #ff343d;
-}
-.swiper-slide {
-	width: 100%;
-        height: 100%;
 }
 .slide {
   display: block;
