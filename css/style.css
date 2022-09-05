@@ -244,7 +244,7 @@ body {
 .swiper, .swiper4 {
   width: 78%;
   height: 100%;	
-  position: absolute;
+  position: relative;
   left: 10%;
   top: 0;
   overflow: hidden;
