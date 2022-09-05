@@ -237,8 +237,7 @@ body {
 .swiper, .swiper4 {
   width: 78%;
   height: 100%;
-	min-width: 78%;
-        min-height: 100%;
+	
   position: absolute;
   left: 10%;
 	top: 0;
