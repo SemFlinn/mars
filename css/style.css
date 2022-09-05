@@ -289,13 +289,13 @@ body {
   height: 0;
 }
 
-.swiper-pagination-bullet {
+.swiper-pagination-bullets {
   position: absolute;
   top: 44%;
   left: 3%;
 }
 @media (max-width: 767px) {
-  .swiper-pagination-bullet {
+  .swiper-pagination-bullets {
     left: 0%;
   }
 }
