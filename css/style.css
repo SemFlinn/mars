@@ -21,6 +21,8 @@ nav, header, footer, aside {
 }
 
 html, body {
+  overflow-x: hidden;
+  overflow-y: scroll;
   height: 100%;
   width: 100%;
   font-size: 100%;
@@ -99,6 +101,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-style: normal;
 }
+
+
+
+
 body::-webkit-scrollbar {
   width: 0;
 }
@@ -194,6 +200,7 @@ body {
 	-moz-appearance: none;
 	-webkit-appearance: none; 
   color: #ff343d;
+  z-index: 2;
 }
 @media (max-width: 1439px) {
   .main__block_title {
@@ -236,11 +243,10 @@ body {
 	
 .swiper, .swiper4 {
   width: 78%;
-  height: 100%;
-	
+  height: 100%;	
   position: absolute;
   left: 10%;
-	top: 0;
+  top: 0;
   overflow: hidden;
 }
 .swiper__text, .swiper4__text {
@@ -267,7 +273,6 @@ body {
 .swiper-wrapper {
     min-width: 100%;
     min-height: 100%;
-	
 	height: 100%;
 }
 @media (max-width: 768px) {
@@ -324,8 +329,12 @@ body {
   background-color: #ff343d;
 }
 .swiper-slide {
-	padding: 0 0 35% 0;
+	//padding: 0 0 35% 0;
+  position: relative;
+  background-size: 69%;
+  background-position: 108% 30%;
 }
+
 .slide {
   display: block;
   padding: 0 0 100% 0;
@@ -334,30 +343,20 @@ body {
 	
 }
 @media (max-width: 767px) {
-  .slide {
+  .swiper-slide {
     background-position: 63% 38%;
     background-size: 69%;
   }
 }
 @media (max-width: 600px) {
-  .slide {
-    background-position: 63% 69%;
+  .swiper-slide {
+    background-position: 63% 53%;
     background-size: 89%;
   }
 }
-@media (max-width: 500px) {
-  .slide {
-    padding: 0 0 120% 0;
-  }
-}
-@media (max-width: 423px) {
-  .slide {
-    padding: 0 0 135% 0;
-  }
-}
 @media (max-width: 374px) {
-  .slide {
-    padding: 0 0 160% 0;
+  .swiper-slide {
+    background-position: 63% 60%;
   }
 }
 .slide__circle {
@@ -400,7 +399,7 @@ body {
 @media (max-width: 600px) {
   .slide__text {
     left: 15.8%;
-    top: 92.5%;
+    top: 79.5%;
   }
 }
 .slide__text_title {
@@ -630,6 +629,7 @@ body {
 .swiper2-slide, .swiper3-slide {
   height: 100%;
 	min-width: 100%;
+  background-size: 100%;
 }
 
 .swiper2-button-next, .swiper3-button-prev, .section5__content_button {
@@ -972,7 +972,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  align-items: center
+  align-items: center;
 	-webkit-box-align: center;
 	-webkit-align-items: center;
 	-ms-flex-align: center;
@@ -1009,9 +1009,3 @@ body {
   color: rgb(255, 52, 61);
   transition: 0.5s;
 }
-
-
-
-
-
-
