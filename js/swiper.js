@@ -1,4 +1,7 @@
-
+elem.style.webkitTransform = transform;
+elem.style.mozTransform = transform;
+elem.style.msTransform = transform;
+elem.style.oTransform = transform;
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'vertical',
