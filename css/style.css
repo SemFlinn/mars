@@ -289,18 +289,18 @@ body {
   height: 0;
 }
 
-.swiper-pagination {
+.swiper-pagination-bullet {
   position: absolute;
   top: 44%;
   left: 3%;
 }
 @media (max-width: 767px) {
-  .swiper-pagination {
+  .swiper-pagination-bullet {
     left: 0%;
   }
 }
 
-.swiper-pagination {
+.swiper-paginati-bullet {
   display: block;
   width: 7px;
   height: 7px;
@@ -309,13 +309,13 @@ body {
   margin: 0 0 19px 0;
 }
 @media (max-width: 767px) {
-  .swiper-pagination {
+  .swiper-pagination-bullet {
     width: 17px;
     height: 17px;
     margin: 0 0 29px 0;
   }
 }
-.swiper-pagination:last-child {
+.swiper-pagination-bullet:last-child {
   margin: 0;
 }
 
