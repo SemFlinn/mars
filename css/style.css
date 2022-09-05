@@ -343,10 +343,21 @@ body {
     background-size: 89%;
   }
 }
-
-
-
-
+@media (max-width: 500px) {
+  .slide {
+    padding: 0 0 120% 0;
+  }
+}
+@media (max-width: 423px) {
+  .slide {
+    padding: 0 0 135% 0;
+  }
+}
+@media (max-width: 374px) {
+  .slide {
+    padding: 0 0 160% 0;
+  }
+}
 .slide__circle {
   position: absolute;
   width: 0%;
