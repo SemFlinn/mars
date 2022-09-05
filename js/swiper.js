@@ -1,3 +1,4 @@
+var transform = 'translate3d(0,0,0)';
 elem.style.webkitTransform = transform;
 elem.style.mozTransform = transform;
 elem.style.msTransform = transform;
