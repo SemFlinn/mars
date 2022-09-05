@@ -184,3 +184,9 @@
     left: 66%;
   }
 }
+@media (max-width: 370px) {
+  .header__menu._active {
+    left: 66%;
+  }
+}
+
