@@ -319,7 +319,7 @@ body {
   margin: 0;
 }
 
-.swiper-pagination-active {
+.swiper-pagination-bullet-active {
   background-color: #ff343d;
 }
 
