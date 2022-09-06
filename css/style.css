@@ -291,6 +291,7 @@ body {
 }
 .swiper1-slide {
   border: 5px solid yellow;
+	padding: 0 0 35% 0;
 }
 
 .swiper-scrollbar {
@@ -342,30 +343,7 @@ body {
   background-position: 108% 30%;
 }
 
-.slide {
-  display: block;
-  padding: 0 0 100% 0;
-  background-position: 107% 20%;
-  background-size: 69%;
-	
-}
-@media (max-width: 767px) {
-  .swiper-slide {
-    background-position: 63% 38%;
-    background-size: 69%;
-  }
-}
-@media (max-width: 600px) {
-  .swiper-slide {
-    background-position: 63% 53%;
-    background-size: 89%;
-  }
-}
-@media (max-width: 374px) {
-  .swiper-slide {
-    background-position: 63% 60%;
-  }
-}
+
 .slide__circle {
   position: absolute;
   width: 0%;
