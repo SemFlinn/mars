@@ -598,6 +598,7 @@ body {
   cursor: pointer;
 	left: 0;
         top: 0;
+	border: 5px solid red;
 }
 
 .swiper2-wrapper, .swiper3-wrapper {
@@ -609,11 +610,12 @@ body {
   top: 0;
   height: 100%;
 	width: 100%;
+	border: 5px solid blue;
 }
 
 .swiper2-slide, .swiper3-slide {
   
-	
+	border: 5px solid yellow;
 	min-width: 100%;
   background-size: 100%;
 }
