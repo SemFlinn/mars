@@ -259,17 +259,17 @@ body {
   transform: rotate(-90deg);
 }
 @media (max-width: 1439px) {
-  .swiper__text, .swiper4__text {
+  .swiper1__text, .swiper4__text {
     left: -1.5%;
   }
 }
 @media (max-width: 1023px) {
-  .swiper__text, .swiper4__text {
+  .swiper1__text, .swiper4__text {
     left: -3.5%;
   }
 }
 @media (max-width: 767px) {
-  .swiper__text, .swiper4__text {
+  .swiper1__text, .swiper4__text {
     display: none;
   }
 }
