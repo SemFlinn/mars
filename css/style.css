@@ -252,7 +252,7 @@ body {
 .swiper1 {
   border: 5px solid blue;
 }
-.swiper__text, .swiper4__text {
+.swiper1__text, .swiper4__text {
   position: absolute;
   bottom: 20%;
   left: -0.5%;
