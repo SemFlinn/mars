@@ -285,7 +285,7 @@ body {
 }
 
 .swiper1-slide {
-	padding: 0 0 242% 0;
+	
   border: 5px solid yellow;
   padding: 0 0 35% 0;
 	    background-size: 89%;
@@ -293,7 +293,7 @@ body {
 }
 @media (max-width: 768px) {
   .swiper1-slide {
-    padding: 0 0 14% 0;
+    padding: 0 0 242% 0;
   }
 }
 
