@@ -275,9 +275,6 @@ body {
 }
 .swiper1-wrapper {
   border: 15px solid green;
-  min-width: 100%;
-  min-height: 100%;
-	height: 100%;
 	display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
