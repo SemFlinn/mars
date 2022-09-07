@@ -22,14 +22,7 @@ const swiper = new Swiper('.swiper1', {
     el: '.swiper-scrollbar',
   },
   
-  breakpoints: {
-    0: { // при 0px и выше
-      direction: "'horizontal'", // горизонтальная прокрутка
-    },
-    768: { // при 768px и выше
-      direction: "'vertical'", // вертикальная прокрутка
-    }
-  },
+  
 
 });
 
