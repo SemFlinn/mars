@@ -281,9 +281,6 @@ body {
     left: -3.5%;
   }
 }
-.swiper1-wrapper, .swiper11-wrapper {
-  
-}
 
 .swiper-pagination {
   position: absolute;
@@ -447,7 +444,7 @@ body {
   }
 }
 
-.swiper11-wrapper, {
+.swiper11-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;  
