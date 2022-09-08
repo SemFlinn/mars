@@ -447,11 +447,13 @@ body {
   }
 }
 
-.swiper11-wrapper {
+.swiper11-wrapper, {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex;  
   position: absolute;
+  min-height: 100%;
+  min-height: 100%;
   left: 0;
   top: 0;
 }
