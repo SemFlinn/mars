@@ -237,15 +237,6 @@ body {
     top: 136px;
   }
 }
-.main__block_slider {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 8;
-  overflow: hidden;
-  left: 0;
-  top: 0;
-}
 
 .swiper1, .swiper11, .swiper4 {
   width: 78%;
