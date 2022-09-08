@@ -168,6 +168,17 @@ body {
           flex: 1 1 auto;
 }
 
+
+
+.section1 {
+  position: relative;
+  padding: 0 0 160% 0;
+}
+
+
+
+
+
 .main__block {
   position: relative;
   width: 100%;
