@@ -170,10 +170,7 @@ body {
 
 
 
-.section1 {
-  position: relative;
-  padding: 0 0 160% 0;
-}
+
 
 
 
@@ -464,7 +461,10 @@ body {
 .swiper11-slide {
   background-position: 3em 15em;
 }
-
+.section1 {
+  position: relative;
+  padding: 0 0 160% 0;
+}
 .section2 {
   width: 100%;
   position: relative;
