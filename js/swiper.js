@@ -20,17 +20,16 @@ const swiper1 = new Swiper('.swiper1', {
   },
 });
 
+
+
 const swiper11 = new Swiper('.swiper11', {
   // Optional parameters
-  direction: 'horizontal',
+  direction: 'vertical',
   loop: true,
-  //mousewheel: true,
-  touchRatio: 1,
-  //mousewheelControl: true,
+
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
-    clickable: true,
   },
 
   // Navigation arrows
@@ -44,7 +43,6 @@ const swiper11 = new Swiper('.swiper11', {
     el: '.swiper-scrollbar',
   },
 });
-
 
 
 
