@@ -1,14 +1,11 @@
-const swiper = new Swiper('.swiper1', {
+const swiper1 = new Swiper('.swiper1', {
   // Optional parameters
   direction: 'vertical',
   loop: true,
-  mousewheel: true,
-  touchRatio: 1,
-  //mousewheelControl: true,
+
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
-    clickable: true,
   },
 
   // Navigation arrows
