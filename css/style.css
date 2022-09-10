@@ -426,27 +426,15 @@ body {
 
 
 
-@media (max-width: 767px) {
-  .section1 {
-      padding: 0px 0 100% 0;
-      flex-wrap: wrap;
-      -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-  }
-}
+
+
+
+
 .section1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: space-between;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-}
-.section1 {
-    width: 100%;
-    position: relative;
-    z-index: 5;
+  position: relative;
+  width: 100%;
+  padding: 0 0 100% 0;
+  background-color: #ccc;
 }
 
 
