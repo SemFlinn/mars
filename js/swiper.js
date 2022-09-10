@@ -139,7 +139,39 @@ const swiper4 = new Swiper('.swiper4', {
 
 
 
+const swiper5 = new Swiper('.swiper5', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+  //mousewheel: true,
+  touchRatio: 1,
+  //mousewheelControl: true,
+  // If we need pagination
+  pagination: {
+    el: '.swiper5-pagination',
+    clickable: true,
+  },
 
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper5-button-next',
+    prevEl: '.swiper5-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper5-scrollbar',
+  },
+
+  /*breakpoints: {
+    0: { // при 0px и выше
+      direction: 'horizontal', // горизонтальная прокрутка
+    },
+    768: { // при 768px и выше
+      direction: 'vertical', // вертикальная прокрутка
+    }
+  },*/
+});
 
 
 
