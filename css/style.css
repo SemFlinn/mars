@@ -437,14 +437,14 @@ body {
 
 
 
-@media (max-width: 767px)
-.section1 {
-    padding: 0px 0 100% 0;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
+@media (max-width: 767px) {
+  .section1 {
+      padding: 0px 0 100% 0;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+  }
 }
-
 .section1 {
     display: -webkit-box;
     display: -ms-flexbox;
