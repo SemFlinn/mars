@@ -212,7 +212,7 @@ body {
   background-size: 80%;
 }
 .swiper2 .swiper-slide {
-  padding: 0 0 0 100vh;
+  padding: 0 0 0 100vw;
   background-size: 60%;
 }
 .swiper-slide1 {
