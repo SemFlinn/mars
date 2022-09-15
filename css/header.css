@@ -150,11 +150,6 @@
   opacity: 0;
   transition: 0.5s;
 }
-@media (max-width: 768px) {
-  .header__menu {
-    top: 450%;
-  }
-}
 .header__menu_list {
   background-color: #fff;
   padding: 10%;
