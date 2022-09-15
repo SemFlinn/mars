@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  margin: 0 0 -93px 0;
+  
   z-index: 10;
 }
 @media (max-width: 1439px) {
