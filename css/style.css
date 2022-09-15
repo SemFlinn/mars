@@ -320,6 +320,7 @@ h1 {
 .swiper1 .swiper-slide, .swiper2 .swiper-slide {
   min-width: 0%;
   min-height: 40vw;
+  height: 50vw;
   background-size: 100%;
   background-position: 0.5vw 9.5vw;
   position: relative;
