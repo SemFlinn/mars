@@ -81,6 +81,7 @@
   color: #98a6aa;
   position: relative;
   z-index: 2;
+  font-size: 14px;
 }
 .header__left_phone:hover {
   background-image: url("../img/13.png");
