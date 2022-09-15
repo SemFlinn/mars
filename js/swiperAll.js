@@ -10685,3 +10685,63 @@ const modules = [Virtual, Keyboard, Mousewheel, Navigation, Pagination, Scrollba
 Swiper.use(modules);
 
 /*export { Swiper, Swiper as default };*/
+
+
+
+
+
+//inicialisacia
+
+new Swiper('.swiper1', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+  mousewheel: {
+    invert: true,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+  breakpoints: {
+    300: {
+      direction: 'horizontal',
+    },
+    768: {
+      direction: 'vertical',
+    },
+  }
+});
+
+
+new Swiper('.swiper2', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
