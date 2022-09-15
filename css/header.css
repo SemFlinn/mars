@@ -33,11 +33,6 @@
 }
 
 .header__left {
-  @media (max-width: 424px) {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,6 +56,9 @@
 @media (max-width: 424px) {
   .header__left {
     height: 13vw;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 .header__left_logo {
