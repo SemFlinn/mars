@@ -69,10 +69,6 @@
   position: relative;
 }
 .header__left_phone {
-  @media (max-width: 424px) {
-    font-size: 10px;
-    padding: 2px 0 2px 20px;
-  }
   display: block;
   background-image: url("../img/11.png");
   background-repeat: no-repeat;
@@ -82,6 +78,11 @@
   position: relative;
   z-index: 2;
   font-size: 14px;
+}
+ @media (max-width: 424px) {
+  .header__left_phone {    
+    font-size: 10px;
+  }
 }
 .header__left_phone:hover {
   background-image: url("../img/13.png");
@@ -108,13 +109,15 @@
   }
 }
 .header__right_buy {
-  @media (max-width: 424px) {
-    font-size: 10px;
-  }
   display: block;
   color: #fff;
   text-transform: uppercase;
   position: relative;
+}
+ @media (max-width: 424px) {
+  .header__right_buy {    
+    font-size: 10px;
+  }
 }
 .header__right_buy::before {
   position: absolute;
