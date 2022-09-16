@@ -445,11 +445,15 @@ h1 {
 @media (max-width: 767px) {
   .swiper-slide__content {
     left: -81%;
+    position: static;
+    margin: 26vw 0 0 8vw;
   }
 }
 @media (max-width: 424px) {
   .swiper-slide__content {
     left: -95%;
+    position: static;
+    margin: 21vw 0 0 5vw;
   }
 }
 .swiper-slide__title {
