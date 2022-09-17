@@ -60,6 +60,7 @@
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   user-select: none;
+  z-index: 1;
 }
 .footer__wrap_logo::before {
   left: calc(50% + 1.55em);
