@@ -512,7 +512,7 @@ h1 {
 @media (max-width: 767px) {
   .section2__row {
     display: block;
-    height: 120vw;
+    height: 100vw;
   }
 }
 .section2__left {
