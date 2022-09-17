@@ -336,7 +336,7 @@ h1 {
 
 .swiper2 .swiper-slide {
   padding: 0 0 0 74vw;
-  background-size: 60%;
+  background-position: 0.5vw -0.5vw;
   position: relative;
   z-index: 2;
 }
