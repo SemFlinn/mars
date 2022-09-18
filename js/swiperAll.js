@@ -10736,7 +10736,7 @@ new Swiper('.swiper2', {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
+    nextEl: '.swiper6-button-next',
     prevEl: '.swiper-button-prev',
   },
 
@@ -10782,7 +10782,7 @@ new Swiper('.swiper6', {
   },
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
+    nextEl: '.swiper6-button-next',
     prevEl: '.swiper-button-prev',
   },
 
