@@ -10736,7 +10736,7 @@ new Swiper('.swiper2', {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper6-button-next',
+    nextEl: '.swiper2-button-next',
     prevEl: '.swiper-button-prev',
   },
 
