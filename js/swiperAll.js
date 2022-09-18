@@ -10727,6 +10727,16 @@ new Swiper('.swiper1', {
 new Swiper('.swiper2', {
   // Optional parameters
   direction: 'horizontal',
+  
+  
+   IOSEdgeSwipeDetection: true,
+  onTouchStart: function()
+  {
+      return false;
+  },
+  
+  
+  
   loop: true,
 
   // If we need pagination
@@ -10775,6 +10785,16 @@ new Swiper('.swiper4', {
 new Swiper('.swiper6', {
   // Optional parameters
   direction: 'vertical',
+  
+  
+   IOSEdgeSwipeDetection: true,
+  onTouchStart: function()
+  {
+      return false;
+  },
+  
+  
+  
   loop: true,
   pagination: {
     el: '.swiper-pagination',
