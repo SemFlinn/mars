@@ -5,8 +5,7 @@
 }
 
 *, *:before, *:after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :focus, :active {
@@ -116,13 +115,8 @@ body {
   height: calc(100% + 1px);
   overflow-x: hidden;
   margin: 0 auto -30px auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .container {
@@ -138,26 +132,17 @@ body {
   }
 }
 .page {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   min-height: 100%;
   height: 100%;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  flex: 1 1 auto;
   font-family: "MontserratB";
 }
 
 .content {
   margin: -100px 0 0 0;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 @media (max-width: 550px) {
   .content {
@@ -166,12 +151,8 @@ body {
 }
 
 .section1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   background-color: #eff2f6;
   height: 52.655vw;
   overflow: hidden;
@@ -201,9 +182,7 @@ h1 {
   position: absolute;
   font-family: "MontserratB";
   text-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-  -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
   left: calc(100% - 38.5vw);
   top: calc(0% + 19.6vw);
 }
@@ -226,9 +205,7 @@ h1 {
   left: 9.2vw;
   font-size: 0.9vw;
   font-family: "MontserratR";
-  -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 @media (min-width: 2000px) {
   .section1__text {
@@ -250,6 +227,7 @@ h1 {
 }
 
 .swiper1 {
+  display: block;
   left: 12%;
   width: 100%;
   height: 250vh;
@@ -278,32 +256,17 @@ h1 {
   top: 0;
   min-height: 100%;
   min-width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 @media (max-width: 767px) {
   .swiper1 .swiper-wrapper {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
 }
 
-/*.swiper2 .swiper-wrapper {
-  position: absolute;
-  left: 0;
-  top: 0;
-  min-height: 100%;
-  min-width: 100%;
-  display: flex;
-}*/
 .swiper1 .swiper-slide {
+  display: block;
   min-height: 40vw;
   height: 50vw;
   background-size: 100%;
@@ -323,12 +286,6 @@ h1 {
   }
 }
 
-/*.swiper2 .swiper-slide {
-  padding: 0 0 0 74vw;
-  background-size: 60%;
-  position: relative;
-  z-index: 2;
-}*/
 .swiper1 .swiper-slide::before {
   position: absolute;
   content: "";
@@ -360,16 +317,9 @@ h1 {
   left: -47%;
   top: 25vw;
   z-index: 10;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
 }
 @media (min-width: 2000px) {
   .swiper1 .swiper-pagination-bullets {
@@ -390,10 +340,7 @@ h1 {
 }
 @media (max-width: 424px) {
   .swiper1 .swiper-pagination-bullets {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     width: 84px;
     height: 10px;
     left: 5%;
@@ -485,8 +432,6 @@ h1 {
 }
 
 .section2__row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 30vw;
   position: relative;
@@ -504,9 +449,7 @@ h1 {
 }
 .section2__left {
   position: relative;
-  -webkit-box-flex: 31%;
-      -ms-flex: 31%;
-          flex: 31%;
+  flex: 31%;
   height: 30vw;
 }
 @media (min-width: 2000px) {
@@ -579,9 +522,7 @@ h1 {
   }
 }
 .section2__right {
-  -webkit-box-flex: 69%;
-      -ms-flex: 69%;
-          flex: 69%;
+  flex: 69%;
   width: 69vw;
   height: 30vw;
   position: relative;
@@ -661,8 +602,6 @@ h1 {
   top: 0;
   min-height: 100%;
   min-width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -672,11 +611,10 @@ h1 {
   background-color: #fff;
   left: 52vw;
   top: 13.5vw;
-  -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
   padding: 1vw 1.8vw;
   border-radius: 50px;
+  display: block;
 }
 @media (min-width: 2000px) {
   .swiper2 .swiper-button-next {
@@ -725,12 +663,8 @@ h1 {
   }
 }
 .section3__row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 4.5vw 0 0 0;
 }
 @media (min-width: 2000px) {
@@ -774,8 +708,6 @@ h1 {
 }
 
 .section4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 33vw;
 }
@@ -831,8 +763,6 @@ h1 {
   top: 0;
   min-height: 100%;
   min-width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -950,6 +880,7 @@ h1 {
   bottom: 15vw;
   left: 26.7vw;
   z-index: 2;
+  display: block;
 }
 @media (min-width: 2000px) {
   .section6__title {
@@ -978,13 +909,8 @@ h1 {
   top: 0;
   min-height: 100%;
   min-width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .swiper6 .swiper-slide {
@@ -1001,6 +927,7 @@ h1 {
   padding: 1vw 1.8vw;
   border-radius: 50px;
   color: #318f76;
+  display: block;
 }
 @media (min-width: 2000px) {
   .swiper6 .swiper-button-next {
