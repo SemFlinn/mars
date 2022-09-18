@@ -272,12 +272,6 @@ h1 {
   }
 }
 
-/*.swiper2 {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  position: relative;
-}*/
 .swiper1 .swiper-wrapper {
   position: absolute;
   left: 0;
@@ -610,7 +604,7 @@ h1 {
   top: 11.3vw;
   font-size: 3vw;
   left: 4.5vw;
-  z-index: 1;
+  z-index: 2;
 }
 @media (min-width: 2000px) {
   .section2__right_title {
@@ -633,7 +627,7 @@ h1 {
   background-color: rgba(0, 0, 0, 0.65);
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
 }
 @media (max-width: 767px) {
   .section2__right::before {
@@ -646,6 +640,7 @@ h1 {
   height: 30vw;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 @media (min-width: 2000px) {
   .swiper2 {
@@ -699,9 +694,6 @@ h1 {
     padding: 2vw 2.8vw;
   }
 }
-
-
-
 
 .section3 {
   height: 30vw;
@@ -780,8 +772,6 @@ h1 {
     width: 23vw;
   }
 }
-
-
 
 .section4 {
   display: -webkit-box;
@@ -879,9 +869,70 @@ h1 {
   }
 }
 
-
-
-
+.section5 {
+  height: 43vw;
+  background-size: 54%;
+  background-position: 117% 53%;
+  position: relative;
+}
+@media (min-width: 2000px) {
+  .section5 {
+    height: 868px;
+  }
+}
+.section5__title {
+  font-weight: 900;
+  font-family: "MontserratR";
+  color: #000;
+  position: absolute;
+  left: 10vw;
+  top: 15.5vw;
+  line-height: 5.5vw;
+  font-size: 4.6vw;
+}
+@media (min-width: 2000px) {
+  .section5__title {
+    font-size: 92px;
+    left: 10%;
+    top: 35%;
+    line-height: 110px;
+  }
+}
+.section5__title span {
+  color: #ff343d;
+}
+.section5__button {
+  color: #000;
+  position: absolute;
+  border: 0.15vw solid #3b3b3b;
+  border-radius: 50px;
+  z-index: 1;
+  left: 10vw;
+  top: 29.8vw;
+  font-size: 0.9vw;
+  padding: 1vw 1.6vw;
+  width: 9.2vw;
+}
+@media (min-width: 2000px) {
+  .section5__button {
+    left: 201px;
+    top: 588px;
+    font-size: 18px;
+    padding: 20px 30px;
+    width: 182px;
+    border: 2px solid #3b3b3b;
+  }
+}
+@media (max-width: 767px) {
+  .section5__button {
+    width: 18.9vw;
+    border: 0.5vw solid #3b3b3b;
+    left: 40.5vw;
+    top: 32.8vw;
+    font-size: 2.3vw;
+    padding: 1vw 1.6vw;
+  }
+}
 
 .section6 {
   height: 59vw;
@@ -913,6 +964,7 @@ h1 {
   width: 100%;
   height: 59vw;
   overflow: hidden;
+  z-index: 1;
 }
 @media (min-width: 2000px) {
   .swiper6 {
