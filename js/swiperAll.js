@@ -10769,3 +10769,25 @@ new Swiper('.swiper4', {
     el: '.swiper-scrollbar',
   },
 });
+
+
+
+new Swiper('.swiper6', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
