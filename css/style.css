@@ -890,17 +890,15 @@ h1 {
 }
 .section6__content {
   width: 100%;
-  bottom: -39vw;
-  left: 26.7vw;
-  position: relative;
+  position: static;
   z-index: 2;
 }
 .section6__title {
-  position: static;
+  position: relative;
   font-size: 4.6vw;
   color: #fff;
-  /*bottom: 15vw;
-  left: 26.7vw;*/
+  top: 37vw;
+  left: 26.7vw;
   z-index: 2;
   display: block;
 }
@@ -963,3 +961,7 @@ h1 {
   .swiper6-button-next {
     font-size: 1.9vw;
     left: 42vw;
+    top: 47.5vw;
+    padding: 2vw 2.8vw;
+  }
+}
