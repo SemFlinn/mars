@@ -976,7 +976,9 @@ h1 {
     height: 1190px;
   }
 }
-
+.section6__content {
+  width: 100%;
+}
 .swiper6 .swiper-wrapper {
   position: absolute;
   left: 0;
