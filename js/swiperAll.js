@@ -10711,7 +10711,7 @@ new Swiper('.swiper1', {
 
   // And if we need scrollbar
   scrollbar: {
-    el: '.swiper-scrollbar',
+    el: '.swiper1-scrollbar',
   },
   breakpoints: {
     300: {
@@ -10727,16 +10727,6 @@ new Swiper('.swiper1', {
 new Swiper('.swiper2', {
   // Optional parameters
   direction: 'horizontal',
-  
-  
-   IOSEdgeSwipeDetection: true,
-  onTouchStart: function()
-  {
-      return false;
-  },
-  
-  
-  
   loop: true,
 
   // If we need pagination
@@ -10752,11 +10742,9 @@ new Swiper('.swiper2', {
 
   // And if we need scrollbar
   scrollbar: {
-    el: '.swiper-scrollbar',
+    el: '.swiper2-scrollbar',
   },
 });
-
-
 
 new Swiper('.swiper4', {
   // Optional parameters
@@ -10776,26 +10764,15 @@ new Swiper('.swiper4', {
 
   // And if we need scrollbar
   scrollbar: {
-    el: '.swiper-scrollbar',
+    el: '.swiper4-scrollbar',
   },
 });
-
-
 
 new Swiper('.swiper6', {
   // Optional parameters
   direction: 'vertical',
-  
-  
-   IOSEdgeSwipeDetection: true,
-  onTouchStart: function()
-  {
-      return false;
-  },
-  
-  
-  
   loop: true,
+
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
@@ -10808,6 +10785,6 @@ new Swiper('.swiper6', {
 
   // And if we need scrollbar
   scrollbar: {
-    el: '.swiper-scrollbar',
+    el: '.swiper6-scrollbar',
   },
 });
