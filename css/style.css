@@ -1113,9 +1113,9 @@ h1 {
 }
 @media (max-width: 767px) {
   .swiper7-button-next {
-    font-size: 1.9vw;
-    left: 42vw;
-    top: 47.5vw;
-    padding: 2vw 2.8vw;
+    left: 42%;
+    top: 77.5%;
+    font-size: 11px;
+    padding: 10px 25px;
   }
 }
