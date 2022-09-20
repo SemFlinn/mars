@@ -1059,13 +1059,10 @@ h1 {
     top: 750px;
   }
 }
-.section7__right_title span {
-  color: #ff343d;
-}
 
 .swiper7 {
   width: 100vw;
-  height: 59.1vw;
+  height: 59vw;
   position: relative;
   overflow: hidden;
 }
