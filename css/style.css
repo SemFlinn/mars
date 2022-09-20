@@ -1023,6 +1023,7 @@ h1 {
   }
 }
 
-._active .section6__content {
+._active .section6__wrap {
   display: none;
 }
+
