@@ -10772,10 +10772,11 @@ new Swiper('.swiper6', {
   // Optional parameters
   direction: 'vertical',
   loop: true,
-  touchRatio: 0
+  
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
+    touchRatio: 0,
   },
   // Navigation arrows
   navigation: {
@@ -10793,10 +10794,11 @@ new Swiper('.swiper7', {
   // Optional parameters
   direction: 'vertical',
   loop: true,
-  touchRatio: 0
+
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
+    touchRatio: 0,
   },
 
   // Navigation arrows
