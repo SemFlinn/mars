@@ -1023,3 +1023,6 @@ h1 {
   }
 }
 
+._active .section6__content {
+  display: none;
+}
