@@ -10790,26 +10790,3 @@ new Swiper('.swiper6', {
   },
 });
 
-new Swiper('.swiper7', {
-  // Optional parameters
-  direction: 'vertical',
-  loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-    touchRatio: 0,
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper7-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper7-scrollbar',
-  },
-});
-
