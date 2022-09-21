@@ -1,7 +1,7 @@
 const options = {
   // root: document.querySelector( '#viewport' ), // я закомментил строку, чтобы использовать значение по умолчанию
   rootMargin: '0px',
-  threshold: [ 0.5 ]
+  threshold: [ 1 ]
 };
  
 /*const observer = new IntersectionObserver( trueCallback, options );*/
