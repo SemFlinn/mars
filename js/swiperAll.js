@@ -10768,25 +10768,37 @@ new Swiper('.swiper4', {
   },
 });
 
-new Swiper('.swiper6', {
-  // Optional parameters
-  direction: 'vertical',
-  loop: true,
-  
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-    touchRatio: 0,
-  },
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper6-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+var swiper = new Swiper('.swiper6', {
+    direction: 'vertical',
+    loop: true,
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper6-scrollbar',
-  },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper6-button-next',
+      prevEl: '.swiper-button-prev',
+    },
 });
+var startScroll, touchStart, touchCurrent;
+swiper.slides.on('touchstart', function (e) {
+    startScroll = this.scrollTop;
+    touchStart = e.targetTouches[0].pageY;
+}, true);
+swiper.slides.on('touchmove', function (e) {
+    touchCurrent = e.targetTouches[0].pageY;
+    var touchesDiff = touchCurrent - touchStart;
+    var slide = this;
+    var onlyScrolling = 
+            ( slide.scrollHeight > slide.offsetHeight ) && //allow only when slide is scrollable
+            (
+                ( touchesDiff < 0 && startScroll === 0 ) || //start from top edge to scroll bottom
+                ( touchesDiff > 0 && startScroll === ( slide.scrollHeight - slide.offsetHeight ) ) || //start from bottom edge to scroll top
+                ( startScroll > 0 && startScroll < ( slide.scrollHeight - slide.offsetHeight ) ) //start from the middle
+            );
+    if (onlyScrolling) {
+        e.stopPropagation();
+    }
+}, true);
 
