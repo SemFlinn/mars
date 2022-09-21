@@ -649,14 +649,7 @@ h1 {
     height: 50vw;
   }
 }
-.swiper2::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: red;
-  z-index: 2;
-}
+
 .swiper2 .swiper-wrapper {
   position: absolute;
   left: 0;
